@@ -1,0 +1,20 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Splash screen styles */
+.splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #000;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    opacity: 1; /* Initial opacity */
+    transition: opacity 1s ease; /* Smooth transition for opacity */
+}
